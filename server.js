@@ -25,7 +25,7 @@ io.on('connection', socket =>{
       //Welcome current user
         utils.welcomeUser(socket, utils.format({
         username: botName, 
-        text: `${user.username} welcome to Let's Yarn :)`
+        text: `${user.username} welcome to Let's Yarn 💬`
     }))
 
       //Broadcast messages to users except the current user
